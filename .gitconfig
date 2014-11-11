@@ -1,0 +1,25 @@
+[user]
+	email = bogdanovmn@gmail.com
+	name = Mikhail N Bogdanov
+
+[push]
+	default = matching
+
+[color]
+	ui = true
+	grep = true
+	status = true
+
+[color "diff"]
+	meta = black
+	frag = black
+	func = cyan
+	plain = white
+
+[core]
+	editor = vim
+	pager = less
+	logAllRefUpdates = true
+
+[format]
+	pretty = short

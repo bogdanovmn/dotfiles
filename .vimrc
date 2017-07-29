@@ -89,12 +89,12 @@ set tags=~/tags
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 "map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
-set nocompatible
-filetype off " обязательно!
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-filetype plugin indent on " обязательно!
-Bundle 'tpope/vim-fugitive'
+"set nocompatible
+"filetype off " обязательно!
+"set rtp+=~/.vim/bundle/vundle/
+"call vundle#rc()
+"filetype plugin indent on " обязательно!
+"Bundle 'tpope/vim-fugitive'
 "Bundle 'vim-perl/vim-perl'
 
 " Настраиваем отображения скрытых символов, при включении их отображения:

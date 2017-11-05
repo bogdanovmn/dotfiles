@@ -4,6 +4,8 @@ alias gd='git diff'
 alias co='git checkout'
 alias br='git branch'
 
+alias bm='/usr/bin/time -f "max memory: %M Kb\ntime: %E"'
+
 alias ll='ls -lah --color=auto'
 
 
